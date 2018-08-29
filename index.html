@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Daily News</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles_1024.css" type="text/css">
+  <link rel="stylesheet" media="screen and (max-width:700px)" href="css/styles_700.css"> 
+  <link rel="stylesheet" media="screen and (max-width:420px)" href="css/styles_420.css"> 
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1><a id="header" href="/" >Daily News</a></h1>
+    </nav>
+  </header>
+
+  <main id="maincontent">
+    <section>
+      <div class="filter-options">
+        <button style="margin:auto;font-size:200%;" id="sorting_button" onclick="sortmylist()">Sort By Publisher Name</button>
+      </div>
+      <ul id="restaurants-list"></ul>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
+  <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
+
+  <footer id="footer">
+    Copyright (c) 2017 <a href="/"><strong>Daily News</strong></a> All Rights Reserved.
+  </footer>
+
+</body>
+
+</html>

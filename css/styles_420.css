@@ -1,0 +1,48 @@
+/* ====================== Restaurant Filtering ====================== */
+.filter-options{
+	display: flex;
+	flex-wrap: wrap;
+	height: 150px;
+}
+.filter-options h2 {
+	padding-top: 15px;
+	width: 100%;
+}
+.filter-options select{
+  width: 80%;
+}
+.filter-options select:focus {
+    max-width: 200px;
+}
+
+/* ====================== Restaurant Listing ====================== */
+#restaurants-list li {
+  min-height: 100px;
+  max-width: 100%;
+  padding: 12px 18px 12px;
+}
+#restaurants-list li:hover,:focus{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#restaurants-list li a {
+	width: 100%;
+	padding: 8px 1px 8px;
+}
+
+.inside #maincontent{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 131px;
+}
+.inside #map-container {
+  height: 200px;
+  width: 100%;
+  position: static;
+}
+#breadcrumb {
+    width: 100%;
+}
+#restaurant-container, #reviews-container {
+  padding: 10px 40px 30px;
+  width: 100%;
+}
